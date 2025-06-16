@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        body {
+            background: #ed1d24;
+            font-family: "Josefin Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-size: 22px;
+            color: #fff;
+            font-style: normal;
+        }
+
+        a {
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .hero-section {
+            padding: 70px 30px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            font-size: 72px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+        .hulk-row {
+            display: grid;
+            grid-template-columns: 35% 65%;
+            gap: 30px;
+        }
+
+
+        .hulk-img {
+            width: 100%;
+        }
+
+        .hulk-name {
+            background-color: #fff;
+            display: block;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            color: #000;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<body>
+    <section class="hero-section">
+        <a data-aos="fade-up" href="index.html">&lt; Go Back</a>
+        <h1 data-aos="fade-up" class="section-title">Hulk</h1>
+        <div class="hulk-row">
+            <div class="hulk-img-wrapper">
+                <img data-aos="fade-up" class="hulk-img"
+                    src="https://wallpapers.com/images/featured/hulk-6mm236yblh8z7yed.jpg" alt="Hulk">
+            </div>
+            <div data-aos="fade-up" class="hulk-content">
+                <p data-aos="fade-up">The character was first played in live-action by Bill Bixby and Lou Ferrigno in
+                    the 1978 television
+                    series The Incredible Hulk and its subsequent television films The Incredible Hulk Returns (1988),
+                    The Trial of the Incredible Hulk (1989), and The Death of the Incredible Hulk (1990). In the 2003
+                    film Hulk, the character was played by Eric Bana. In the Marvel Cinematic Universe (MCU), the
+                    character was first portrayed by Edward Norton in the film The Incredible Hulk (2008) and then by
+                    Mark Ruffalo in later appearances in the franchise.</p>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>

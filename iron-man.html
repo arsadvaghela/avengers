@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        body {
+            background: #ed1d24;
+            font-family: "Josefin Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-size: 22px;
+            color: #fff;
+            font-style: normal;
+        }
+
+        a {
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .hero-section {
+            padding: 70px 30px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            font-size: 72px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+        .avenger-row {
+            display: grid;
+            grid-template-columns: 35% 65%;
+            gap: 30px;
+        }
+
+
+        .avenger-img {
+            width: 100%;
+        }
+
+        .avenger-name {
+            background-color: #fff;
+            display: block;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            color: #000;
+            text-align: center;
+
+        }
+    </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="hero-section">
+        <a data-aos="fade-up" href="index.html">&lt; Go Back</a>
+        <h1 data-aos="fade-up" class="section-title">Iron Man</h1>
+        <div class="avenger-row">
+            <div class="avenger-img-wrapper">
+                <img data-aos="fade-up" class="avenger-img" src="images/iron-man.gif" alt="Iron Man">
+            </div>
+            <div class="avenger-content">
+                <p data-aos="fade-up">Release: 2008</p>
+                <p data-aos="fade-up">Director: 2008</p>
+                <p data-aos="fade-up">Producer: 2008</p>
+                <p data-aos="fade-up">Robert Downey Jr. portrayed Tony Stark in Iron Man (2008), the first film of the
+                    Marvel Cinematic
+                    Universe, and continued to portray the character until his final appearance in Avengers: Endgame
+                    (2019). Downey's portrayal popularized the character, elevating Iron Man into one of Marvel's most
+                    recognizable superheroes. Other adaptations of the character appear in animated direct-to-video
+                    films, television series, and video games.</p>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
