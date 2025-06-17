@@ -129,6 +129,7 @@ body {
 @media (max-width:767px) {
     .section-title {
         font-size: 42px;
+        margin-top: 20px;
     }
 
     .hero-section {
