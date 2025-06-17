@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background: #ed1d24;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    font-style: normal;
+}
+
+a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+p {
+    margin-bottom: 20px;
+}
+
+.hero-section {
+    padding: 70px 30px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 72px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+
+.character-row {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 30px;
+}
+
+
+.character-img {
+    width: 100%;
+}
+
+@media (max-width:767px) {
+    .character-row {
+        grid-template-columns: auto;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background: #ed1d24;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.hero-section {
+    padding: 70px 30px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 72px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.avenger-row {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+}
+
+.avenger-item {
+    display: inline-block;
+    background-color: red;
+}
+
+.avenger-img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.avenger-name {
+    background-color: #fff;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+
+}
+
+
+@media (max-width:767px) {
+    .section-title {
+        font-size: 42px;
+    }
+
+    .hero-section {
+        padding: 30px 15px;
+    }
+
+    .avenger-img {
+        height: 200px;
+    }
+
+    .avenger-row {
+        gap: 10px;
+        grid-template-columns: auto auto;
+    }
+
+}
